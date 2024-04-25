@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(to bottom right, #2c3e50, #3498db);
+    background-color: #3498db;
+    color: white;
+}
+.gallery-img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.gallery-img:hover {
+    transform: scale(1.1);
+}
+
+.card {
+    overflow: hidden;
+}
+
+.card-img-overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.card:hover .card-img-overlay {
+    opacity: 1;
+}
+.logoP{
+    width: 100px;
+}
+.tengah{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.judul{
+    display: flex;
+    flex-direction: column;
+}
